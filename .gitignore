@@ -1,2 +1,3 @@
-/hello
-/hello.exe
+/builddir
+/build
+/internal/app/conf.go
