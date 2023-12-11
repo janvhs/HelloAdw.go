@@ -1,8 +1,10 @@
+// After changing this file, run "go mod tidy"
 module example.com/hello
 
 go 1.21.4
 
-// Upgrades the moving GC detection package to its last version.
+// Upgrades every instance of the moving GC detection package to its last version.
+// This is done to support the newest Go version without needing upstream changes.
 replace go4.org/unsafe/assume-no-moving-gc => go4.org/unsafe/assume-no-moving-gc v0.0.0-20231121144256-b99613f794b6
 
 require github.com/diamondburned/gotk4/pkg v0.0.5
