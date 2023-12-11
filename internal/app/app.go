@@ -41,5 +41,5 @@ func (a *Application) activate() {
 }
 
 func (a *Application) printHello() {
-	fmt.Println("Hello from GTK4 and Go!")
+	fmt.Printf("A friendly hello in version %s from GTK4 and Go!\n", Version)
 }
