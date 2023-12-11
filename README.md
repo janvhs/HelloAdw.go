@@ -10,6 +10,12 @@ $ meson setup builddir
 $ meson compile -C builddir
 ```
 
+or
+
+```sh
+$ make
+```
+
 ## TOODs
 
 Currently, this template is not finished, because it does not fullfil the same features
